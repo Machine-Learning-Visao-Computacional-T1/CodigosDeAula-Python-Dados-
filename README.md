@@ -46,3 +46,8 @@ Fornecer um ambiente de consulta e prática para os alunos. Aqui você encontrar
 1. Clone este repositório na sua máquina usando o Git Bash ou o terminal do VS Code:
    ```bash
    git clone [https://github.com/Machine-Learning-Visao-Computacional-T1.git](https://github.com/Machine-Learning-Visao-Computacional-T1.git)
+
+## 👨‍🏫 Instrutor
+Welington Souza
+Analista Engenheiro de Dados, Cientista de Dados e Professor conteudista.
+welington.souza@edu.sc.senai.br
