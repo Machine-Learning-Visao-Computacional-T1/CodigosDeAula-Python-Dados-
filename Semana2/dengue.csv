@@ -1,0 +1,9 @@
+Idade;Sexo;Peso;Manchas;Temp.;Num.Inter.;Estado;Diagnóstico
+37;M;73;Grandes;38.0;2;SP;Doente
+18;F;79;Pequenas;39.5;4;MG;Saudável
+40;M;68;Pequenas;38.0;0;RS;Doente
+18;F;90;Médias;38.5;11;MG;Doente
+50;M;78;Grandes;37.6;2;PE;Saudável
+54;M;56;Pequeas;38.0;3;RJ;Saudável
+72;M;67;Grandes;39.0;0;AM;Doente
+22;M;78;Médias;38.4;6;GO;Saudável
