@@ -1,0 +1,7 @@
+- Desinstalar a versão do python 3.14 e instalar a versão Python 3.12.10, pois essa é masi estável para trabalhar com visao computacional
+- Manter pip install versao 25
+
+- Pra quem quiser utilizar placa de video externa:
+- pip uninstall torch torchvision torchaudio
+- pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
+- pip install ultralytics
