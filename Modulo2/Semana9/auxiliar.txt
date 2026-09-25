@@ -5,3 +5,5 @@
 - pip uninstall torch torchvision torchaudio
 - pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
 - pip install ultralytics
+
+video teste: https://drive.google.com/file/d/1ozfudaMP8fPq4nn2D-8O4s5kOuxt67YP/view?usp=sharing
