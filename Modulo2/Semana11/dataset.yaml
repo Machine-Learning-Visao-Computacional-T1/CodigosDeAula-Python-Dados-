@@ -1,0 +1,10 @@
+path: C:\Users\welin\OneDrive\Área de Trabalho\projeto_frutas
+
+train: images/train
+val: images/val
+
+nc: 1
+
+names: ['Banana']
+
+#https://www.kaggle.com/datasets/puneetttttttttttt/banana-dataset
