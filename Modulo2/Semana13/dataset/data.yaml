@@ -1,0 +1,9 @@
+path: F:\Senai\Detector EPI\dataset
+
+train: train/images
+val: valid/images
+test: test/images
+
+nc: 6
+
+names: ['capacete', 'camisa', 'colete', 'luva', 'cabeca_desprotegida', 'mao']
