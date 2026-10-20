@@ -1,0 +1,31 @@
+name: Teste de Integridade Python
+
+on:
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  validar-codigo:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      
+      - uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+          
+      - name: Instalar Dependências do Projeto
+        run: |
+          python -m pip install --upgrade pip
+          pip install ultralytics
+          
+      - name: Instalar Verificador de Sintaxe
+        run: pip install flake8 nbqa
+        
+      - name: Caçar Erros de Sintaxe no Colab
+        run: |
+          nbqa flake8 . --select=E9,F63,F7,F82 --show-source
+          
+      - name: Conclusão
+        run: echo "Sintaxe validada com sucesso! Código pronto para Produção."
